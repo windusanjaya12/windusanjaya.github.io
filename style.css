@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f9f9f9;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    border-radius: 5rem;
+    background: #96989B;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    text-align: center;
+    background: #96989B;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    background-clip: text;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: auto;
+}
+
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
+
+.navbar{
+    width: 100%;
+    padding-top: 1rem;
+} 
+
+.navbar .box-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .box-navbar h1{
+    font-size: 38px;
+    color: white;
+}
+
+.navbar .box-navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .box-navbar ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.navbar .box-navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.navbar .box-navbar ul li a:hover{
+    color: #96989B;
+}
+
+/* Hero */
+header .hero{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+header .hero h1{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 54px;
+    text-align: center;
+}
+
+/* Event */
+.event{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 15rem;
+}
+
+.event .container{
+    margin-bottom: 5rem;
+}
+
+.event .box-event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11rem;
+    margin-top: 1rem;
+}
+
+.event .box-event .box{
+    text-align: center;
+    margin-inline: 20px;
+}
+
+.event .box-event .box img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* destination */
+
+.destination .box-destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #1E878B;
+}
+
+.destination h2{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.destination .box-destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination .box-destination img{
+    width: 300px;
+    height: 200px;
+    margin: 10px ;
+    border-radius: 10px;
+}
+
+.destination .box-destination img:hover{
+        transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+/* about style */
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about .box-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box-about .box:nth-child(1) {
+    padding-right: 30px;
+}
+
+.about .box-about .box img{
+    border-radius: 10px;
+    width: 600px;
+}
+
+.about .box-about .box h1{
+    font-size: 52px;
+}
+
+.about .box-about .box p{
+    line-height: 2;
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E878B;
+}
+
+.contact .box-contact{
+    width: 100%;
+    height: 600px;
+    background: rgba(217,217,217,0.5);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.contact .box-contact form{
+    padding-top: 3rem;
+    margin-left: 6rem;
+}
+
+.contact .box-contact form h2{
+    font-size: 34px;
+    padding-left: 9.6rem;
+    justify-content: center;
+    color: white;
+
+}
+
+.contact .box-contact form button{
+    width: 416px;
+    height: 57px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(78,202,209,1);
+    opacity: 1;
+    top: 491px;
+    left: 109px;
+    border-radius: 20px;
+    text-transform: none;
+    font-family: Roboto Slab;
+    font-size: 32px;
+    color: rgba(255,255,255,1);
+}
+
+.contact .box-contact form button span img{
+    position: relative;
+    padding-right: 20px;
+}
+
+.contact .box-contact form button span{
+    display: flex;
+    padding-left: 5.5rem;
+}
+
+.contact .box-contact form button:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.contact .box-contact form .btn-form{
+    font-size: 20px;
+}
+
+.contact .box-contact form table{
+    padding-bottom: 2rem;
+}
+
+.contact .box-contact form table tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .box-contact form table tr td label {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.contact .box-contact form table tr td input {
+    width: 416px;
+    height: 57px;
+    background: rgba(255, 255, 255, 0.904);
+    opacity: 1;
+    top: 165px;
+    left: 109px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contact .box-contact .form-img{
+    width: 50%;
+    height: 719px;
+    background-image: url(gambarform.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 636px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+.contact .box-contact .form-hero{
+    width: 536px;
+    height: 197px;
+    margin-top: 24rem;
+    margin-left: 1.3rem;
+    background: rgba(255, 255, 255, 0.288);
+    opacity: 1;
+    top: 504px;
+    left: 693px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.contact .box-contact .form-img .form-hero p{
+    color: #212529;
+    top: 532px;
+    left: 732px;
+    font-family: Roboto Slab;
+    font-size: 40px;
+    font-weight: 900;
+    opacity: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+
